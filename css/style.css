@@ -112,10 +112,11 @@ a:hover {
   .rt_paintings--site-hero {
     background-image: url('/images/bannerRtMedio.png');
   }
+
   .rt_paintings--site-hero-two {
     background-image: url('/images/bannerRtDesk3.png');
   }
-  
+
   .rt_paintings--site-hero-three {
     background-image: url('/images/bannerRtDesk2.png');
   }
@@ -176,6 +177,7 @@ a:hover {
   font-size: 22px;
   font-weight: 300;
 }
+
 
 .rt_paintings--site-hero .site-hero-contents .hero-heading,
 .rt_paintings--site-hero-two .site-hero-contents .hero-heading,
@@ -244,7 +246,7 @@ a:hover {
 .rt_paintings--site-hero.inner-page .site-hero-contents .hero-heading,
 .rt_paintings--site-hero-two.inner-page .site-hero-contents .hero-heading,
 .rt_paintings--site-hero-three.inner-page .site-hero-contents .hero-heading {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #000;
   line-height: 0;
   font-family: "Cormorant Garamond", serif;
@@ -1152,9 +1154,9 @@ a:hover {
 }
 
 .rt_paintings--site-mobile-menu .close-wrap a .close-times {
-  position: relative;
-  margin-top: 4px;
-  right: 0;
+  position: absolute;
+  margin-top: -16px;
+  margin-right: 17px;
 }
 
 .rt_paintings--site-mobile-menu .close-wrap a .close-times .bar1,
