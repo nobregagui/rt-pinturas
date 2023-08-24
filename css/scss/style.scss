@@ -178,58 +178,6 @@ a {
 		width: 100%!important;
 	}
 }
-.owl-hero {
-	.owl-nav {
-    @include media-breakpoint-down(md) {
-      display: none;
-    }
-    .owl-prev,
-    .owl-next {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      color: $white!important;
-      span {
-      	font-size: 30px;
-      }
-      &:hover {
-        color: $white;
-      }
-      &:active, &:focus {
-      	outline: none;
-      }
-    }
-    .owl-prev {
-      left: 20px;
-    }
-    .owl-next {
-      right: 20px;
-    }
-  }
-  .owl-dots {
-  	position: absolute;
-  	width: 100%;
-  	text-align: center;
-  	bottom: 50px;
-  	.owl-dot {
-  		display: inline-block;
-  		> span {
-  			margin: 4px;
-  			display: inline-block;
-	  		width: 8px;
-	  		height: 8px;
-	  		border-radius: 50%;
-	  		background: rgba($white, .5);
-	  		transition: .3s all ease;
-  		}
-  		&.active {
-				> span {
-					background: rgba($white, 1);
-				}
-  		}
-  	}
-  }
-}
 
 /* Rooms/Suites */
 .bg-image {
